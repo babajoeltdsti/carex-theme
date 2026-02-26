@@ -2,7 +2,7 @@
   "name": "carex-theme",
   "displayName": "Carex",
   "description": "🎨 A beautiful, modern VS Code theme with Dark, Light, and High Contrast variants. Inspired by Catppuccin, designed for comfortable long coding sessions.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "OMERBABACO",
   "author": {
     "name": "Carex Theme Team"
