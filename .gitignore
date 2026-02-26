@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+*.vsix
+dist/
+out/
+
+# IDE - Keep .vscode if you want to share workspace settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Package lock (optional - remove this line if you want to commit package-lock.json)
+# package-lock.json

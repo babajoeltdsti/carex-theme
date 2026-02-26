@@ -1,0 +1,82 @@
+{
+  "name": "carex-theme",
+  "displayName": "Carex",
+  "description": "🎨 A beautiful, modern VS Code theme with Dark, Light, and High Contrast variants. Inspired by Catppuccin, designed for comfortable long coding sessions.",
+  "version": "1.0.0",
+  "publisher": "OMERBABACO",
+  "author": {
+    "name": "Carex Theme Team"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "light theme",
+    "high contrast",
+    "dark",
+    "light",
+    "carex",
+    "color theme",
+    "syntax highlighting",
+    "modern",
+    "catppuccin",
+    "pastel colors",
+    "soft colors",
+    "eye friendly",
+    "comfortable",
+    "bracket colorization",
+    "accessibility",
+    "javascript",
+    "typescript",
+    "python",
+    "react",
+    "vue",
+    "angular",
+    "node"
+  ],
+  "galleryBanner": {
+    "color": "#0a0a14",
+    "theme": "dark"
+  },
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Carex Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carex-dark.json"
+      },
+      {
+        "label": "Carex Light",
+        "uiTheme": "vs",
+        "path": "./themes/carex-light.json"
+      },
+      {
+        "label": "Carex High Contrast",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carex-high-contrast.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babajoeltdsti/carex-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/babajoeltdsti/carex-theme/issues"
+  },
+  "homepage": "https://github.com/babajoeltdsti/carex-theme#readme",
+  "license": "MIT",
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.19.0"
+  }
+}
