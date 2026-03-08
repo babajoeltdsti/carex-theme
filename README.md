@@ -14,7 +14,7 @@
 
 **A premium VS Code theme suite inspired by Catppuccin, now with 11 color variants, semantic highlighting upgrades, a file icon theme, and a custom product icon theme.**
 
-[🚀 Install Now](https://marketplace.visualstudio.com/items?itemName=OMERBABACO.carex-theme) • [🐛 Report Bug](https://github.com/babajoeltdsti/carex-theme/issues) • [💡 Request Feature](https://github.com/babajoeltdsti/carex-theme/issues) • [⭐ Star on GitHub](https://github.com/babajoeltdsti/carex-theme) • [🗺️ Feature Report](./CAREX_FEATURE_REPORT.md) • [⚙️ Variant Profiles](./VARIANT_PROFILES.md)
+[🚀 Install Now](https://marketplace.visualstudio.com/items?itemName=OMERBABACO.carex-theme) • [🐛 Report Bug](https://github.com/babajoeltdsti/carex-theme/issues) • [💡 Request Feature](https://github.com/babajoeltdsti/carex-theme/issues) • [⭐ Star on GitHub](https://github.com/babajoeltdsti/carex-theme) • [⚙️ Variant Profiles](./VARIANT_PROFILES.md)
 
 </div>
 
@@ -83,7 +83,6 @@ Carex now ships with a custom file icon theme and a matching product icon theme 
 
 ## 📚 Companion Docs
 
-- [Feature Report](./CAREX_FEATURE_REPORT.md)
 - [Variant Profiles](./VARIANT_PROFILES.md)
 - [Terminal Palettes](./TERMINAL_PALETTES.md)
 - [Release Checklist](./RELEASE_CHECKLIST.md)
