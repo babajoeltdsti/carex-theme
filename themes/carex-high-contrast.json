@@ -1,5 +1,5 @@
 {
-  "name": "Carex High Contrast",
+  "name": "Carex High Contrast Dark",
   "type": "dark",
   "colors": {
     "editor.background": "#000000",
@@ -387,10 +387,64 @@
     "textLink.foreground": "#00ffff",
     "textPreformat.foreground": "#00ff00",
     "textSeparator.foreground": "#404040",
+    "editorStickyScroll.background": "#000000",
+    "editorStickyScroll.border": "#333333",
+    "editorStickyScrollHover.background": "#1a1a1a",
+    "editor.inlineValuesBackground": "#333333",
+    "editor.inlineValuesForeground": "#ffff00",
+    "mergeEditor.change.background": "#00ffff30",
+    "mergeEditor.change.word.background": "#00ffff50",
+    "mergeEditor.conflict.handled.minimapOverViewRuler": "#00ff00",
+    "mergeEditor.conflict.unhandled.minimapOverViewRuler": "#ff0000",
+    "notebook.cellBorderColor": "#333333",
+    "notebook.focusedCellBorder": "#00ffff",
+    "notebook.inactiveFocusedCellBorder": "#808080",
+    "notebook.focusedEditorBorder": "#00ffff",
+    "notebookStatusSuccessIcon.foreground": "#00ff00",
+    "notebookStatusErrorIcon.foreground": "#ff0000",
+    "testing.iconPassed": "#00ff00",
+    "testing.iconFailed": "#ff0000",
+    "testing.iconErrored": "#ff0000",
+    "testing.iconQueued": "#ffff00",
+    "testing.iconSkipped": "#808080",
+    "gitDecoration.addedResourceForeground": "#00ff00",
+    "gitDecoration.modifiedResourceForeground": "#ffff00",
+    "gitDecoration.deletedResourceForeground": "#ff0000",
+    "gitDecoration.ignoredResourceForeground": "#808080",
+    "gitDecoration.conflictingResourceForeground": "#ff8800",
+    "gitDecoration.untrackedResourceForeground": "#00ffff",
+    "inlineChat.background": "#1a1a1a",
+    "inlineChat.border": "#00ffff",
+    "inlineChatInput.background": "#000000",
     "widget.shadow": "#000000",
     "welcomePage.buttonBackground": "#333333",
     "welcomePage.buttonHoverBackground": "#404040",
     "walkThrough.embeddedEditorBackground": "#000000"
+  },
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "class": "#ff00ff",
+    "class.declaration": { "foreground": "#ff00ff", "fontStyle": "bold" },
+    "enum": "#ff8800",
+    "enumMember": "#ffff00",
+    "interface": "#00ffff",
+    "type": "#ff00ff",
+    "typeParameter": "#ffffff",
+    "parameter": "#ff8800",
+    "property": "#00ffff",
+    "variable.readonly": "#ffff00",
+    "variable.defaultLibrary": "#00ffff",
+    "function": "#00ffff",
+    "function.declaration": { "foreground": "#00ffff", "fontStyle": "bold" },
+    "method": "#00ffff",
+    "macro": "#ff0000",
+    "decorator": "#ff00ff",
+    "namespace": "#ff00ff",
+    "regexp": "#ff8800",
+    "string.escapeCharacter": "#ffff00",
+    "keyword.async": { "foreground": "#ff0000", "fontStyle": "italic" },
+    "keyword.control": "#ff0000",
+    "comment.documentation": "#999999"
   },
   "tokenColors": [
     {
@@ -467,6 +521,46 @@
       "name": "Attribute",
       "scope": ["entity.other.attribute-name"],
       "settings": { "foreground": "#ff00ff" }
+    },
+    {
+      "name": "Markdown Headings",
+      "scope": ["markup.heading", "entity.name.section.markdown"],
+      "settings": { "foreground": "#00ffff", "fontStyle": "bold" }
+    },
+    {
+      "name": "Markdown Quote and Frontmatter",
+      "scope": ["markup.quote", "meta.frontmatter", "punctuation.section.frontmatter"],
+      "settings": { "foreground": "#00ff00" }
+    },
+    {
+      "name": "Markdown Inline Raw",
+      "scope": ["markup.inline.raw", "markup.fenced_code.block.markdown"],
+      "settings": { "foreground": "#ffff00" }
+    },
+    {
+      "name": "JSX and HTML Tags",
+      "scope": ["entity.name.tag", "entity.name.tag.jsx", "entity.name.tag.tsx"],
+      "settings": { "foreground": "#ff0000" }
+    },
+    {
+      "name": "JSX Attributes and JSON Keys",
+      "scope": ["entity.other.attribute-name.jsx", "entity.other.attribute-name.tsx", "support.type.property-name.json", "meta.object-literal.key"],
+      "settings": { "foreground": "#00ffff" }
+    },
+    {
+      "name": "CSS Selectors",
+      "scope": ["entity.other.attribute-name.class.css", "entity.other.attribute-name.class.scss", "entity.other.attribute-name.id.css", "entity.other.attribute-name.id.scss"],
+      "settings": { "foreground": "#ffff00" }
+    },
+    {
+      "name": "Python Decorators",
+      "scope": ["meta.function.decorator.python", "entity.name.function.decorator.python", "storage.type.annotation.python"],
+      "settings": { "foreground": "#ff00ff" }
+    },
+    {
+      "name": "Regex and Escape",
+      "scope": ["string.regexp", "constant.character.escape"],
+      "settings": { "foreground": "#ff8800" }
     }
   ]
 }

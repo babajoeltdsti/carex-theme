@@ -387,10 +387,64 @@
     "textLink.foreground": "#89b4fa",
     "textPreformat.foreground": "#a6e3a1",
     "textSeparator.foreground": "#45475a",
+    "editorStickyScroll.background": "#181825",
+    "editorStickyScroll.border": "#313244",
+    "editorStickyScrollHover.background": "#313244",
+    "editor.inlineValuesBackground": "#31324480",
+    "editor.inlineValuesForeground": "#f9e2af",
+    "mergeEditor.change.background": "#89b4fa20",
+    "mergeEditor.change.word.background": "#89b4fa35",
+    "mergeEditor.conflict.handled.minimapOverViewRuler": "#a6e3a1",
+    "mergeEditor.conflict.unhandled.minimapOverViewRuler": "#f38ba8",
+    "notebook.cellBorderColor": "#313244",
+    "notebook.focusedCellBorder": "#89b4fa",
+    "notebook.inactiveFocusedCellBorder": "#45475a",
+    "notebook.focusedEditorBorder": "#89b4fa60",
+    "notebookStatusSuccessIcon.foreground": "#a6e3a1",
+    "notebookStatusErrorIcon.foreground": "#f38ba8",
+    "testing.iconPassed": "#a6e3a1",
+    "testing.iconFailed": "#f38ba8",
+    "testing.iconErrored": "#f38ba8",
+    "testing.iconQueued": "#f9e2af",
+    "testing.iconSkipped": "#9399b2",
+    "gitDecoration.addedResourceForeground": "#a6e3a1",
+    "gitDecoration.modifiedResourceForeground": "#f9e2af",
+    "gitDecoration.deletedResourceForeground": "#f38ba8",
+    "gitDecoration.ignoredResourceForeground": "#6c7086",
+    "gitDecoration.conflictingResourceForeground": "#fab387",
+    "gitDecoration.untrackedResourceForeground": "#94e2d5",
+    "inlineChat.background": "#181825",
+    "inlineChat.border": "#89b4fa60",
+    "inlineChatInput.background": "#1e1e2e",
     "widget.shadow": "#00000080",
     "welcomePage.buttonBackground": "#313244",
     "welcomePage.buttonHoverBackground": "#45475a",
     "walkThrough.embeddedEditorBackground": "#1e1e2e"
+  },
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "class": "#cba6f7",
+    "class.declaration": { "foreground": "#cba6f7", "fontStyle": "bold" },
+    "enum": "#fab387",
+    "enumMember": "#f9e2af",
+    "interface": "#94e2d5",
+    "type": "#cba6f7",
+    "typeParameter": "#f5c2e7",
+    "parameter": "#fab387",
+    "property": "#89dceb",
+    "variable.readonly": "#f9e2af",
+    "variable.defaultLibrary": "#94e2d5",
+    "function": "#89b4fa",
+    "function.declaration": { "foreground": "#89b4fa", "fontStyle": "bold" },
+    "method": "#89b4fa",
+    "macro": "#f38ba8",
+    "decorator": "#f5c2e7",
+    "namespace": "#cba6f7",
+    "regexp": "#fab387",
+    "string.escapeCharacter": "#f9e2af",
+    "keyword.async": { "foreground": "#f38ba8", "fontStyle": "italic" },
+    "keyword.control": "#f38ba8",
+    "comment.documentation": "#9399b2"
   },
   "tokenColors": [
     {
@@ -467,6 +521,46 @@
       "name": "Attribute",
       "scope": ["entity.other.attribute-name"],
       "settings": { "foreground": "#cba6f7" }
+    },
+    {
+      "name": "Markdown Headings",
+      "scope": ["markup.heading", "entity.name.section.markdown"],
+      "settings": { "foreground": "#89b4fa", "fontStyle": "bold" }
+    },
+    {
+      "name": "Markdown Quote and Frontmatter",
+      "scope": ["markup.quote", "meta.frontmatter", "punctuation.section.frontmatter"],
+      "settings": { "foreground": "#94e2d5" }
+    },
+    {
+      "name": "Markdown Inline Raw",
+      "scope": ["markup.inline.raw", "markup.fenced_code.block.markdown"],
+      "settings": { "foreground": "#a6e3a1" }
+    },
+    {
+      "name": "JSX and HTML Tags",
+      "scope": ["entity.name.tag", "entity.name.tag.jsx", "entity.name.tag.tsx"],
+      "settings": { "foreground": "#f38ba8" }
+    },
+    {
+      "name": "JSX Attributes and JSON Keys",
+      "scope": ["entity.other.attribute-name.jsx", "entity.other.attribute-name.tsx", "support.type.property-name.json", "meta.object-literal.key"],
+      "settings": { "foreground": "#89dceb" }
+    },
+    {
+      "name": "CSS Selectors",
+      "scope": ["entity.other.attribute-name.class.css", "entity.other.attribute-name.class.scss", "entity.other.attribute-name.id.css", "entity.other.attribute-name.id.scss"],
+      "settings": { "foreground": "#f9e2af" }
+    },
+    {
+      "name": "Python Decorators",
+      "scope": ["meta.function.decorator.python", "entity.name.function.decorator.python", "storage.type.annotation.python"],
+      "settings": { "foreground": "#f5c2e7" }
+    },
+    {
+      "name": "Regex and Escape",
+      "scope": ["string.regexp", "constant.character.escape"],
+      "settings": { "foreground": "#fab387" }
     }
   ]
 }

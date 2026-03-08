@@ -1,8 +1,8 @@
 {
   "name": "carex-theme",
   "displayName": "Carex",
-  "description": "🎨 A beautiful, modern VS Code theme with Dark, Light, and High Contrast variants. Inspired by Catppuccin, designed for comfortable long coding sessions.",
-  "version": "1.0.2",
+  "description": "🎨 A premium VS Code theme suite with 11 color variants, file icons, and product icons. Inspired by Catppuccin, refined for long coding sessions.",
+  "version": "2.0.0",
   "publisher": "OMERBABACO",
   "author": {
     "name": "Carex Theme Team"
@@ -18,9 +18,15 @@
     "dark theme",
     "light theme",
     "high contrast",
+    "oled",
+    "neon",
+    "dusk",
+    "dawn",
     "dark",
     "light",
     "carex",
+    "icon theme",
+    "product icon theme",
     "color theme",
     "syntax highlighting",
     "modern",
@@ -57,9 +63,63 @@
         "path": "./themes/carex-light.json"
       },
       {
-        "label": "Carex High Contrast",
+        "label": "Carex High Contrast Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/carex-high-contrast.json"
+      },
+      {
+        "label": "Carex High Contrast Light",
+        "uiTheme": "vs",
+        "path": "./themes/carex-high-contrast-light.json"
+      },
+      {
+        "label": "Carex OLED",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carex-oled.json"
+      },
+      {
+        "label": "Carex Dusk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carex-dusk.json"
+      },
+      {
+        "label": "Carex Dawn",
+        "uiTheme": "vs",
+        "path": "./themes/carex-dawn.json"
+      },
+      {
+        "label": "Carex Neon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carex-neon.json"
+      },
+      {
+        "label": "Carex Deuteranopia Friendly",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carex-deuteranopia-friendly.json"
+      },
+      {
+        "label": "Carex Protanopia Friendly",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carex-protanopia-friendly.json"
+      },
+      {
+        "label": "Carex Low Distraction",
+        "uiTheme": "vs-dark",
+        "path": "./themes/carex-low-distraction.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "carex-file-icons",
+        "label": "Carex File Icons",
+        "path": "./fileicons/carex-file-icon-theme.json"
+      }
+    ],
+    "productIconThemes": [
+      {
+        "id": "carex-product-icons",
+        "label": "Carex Product Icons",
+        "path": "./producticons/carex-product-icon-theme.json"
       }
     ]
   },
@@ -73,10 +133,12 @@
   "homepage": "https://github.com/babajoeltdsti/carex-theme#readme",
   "license": "MIT",
   "scripts": {
-    "package": "vsce package",
-    "publish": "vsce publish"
+    "build:product-icons": "fantasticon producticons/svg -o producticons/fonts -n carex-product-icons -t woff -g json",
+    "package": "npm run build:product-icons && vsce package",
+    "publish": "npm run build:product-icons && vsce publish"
   },
   "devDependencies": {
-    "@vscode/vsce": "^2.19.0"
+    "@vscode/vsce": "^2.19.0",
+    "fantasticon": "^4.1.0"
   }
 }

@@ -1,0 +1,33 @@
+{
+  "fonts": [
+    {
+      "id": "carex-product-icons",
+      "src": [
+        {
+          "path": "./fonts/carex-product-icons.woff",
+          "format": "woff"
+        }
+      ],
+      "weight": "normal",
+      "style": "normal",
+      "size": "100%"
+    }
+  ],
+  "iconDefinitions": {
+    "account": { "fontCharacter": "\\F10F", "fontId": "carex-product-icons" },
+    "bell": { "fontCharacter": "\\F10E", "fontId": "carex-product-icons" },
+    "book": { "fontCharacter": "\\F10D", "fontId": "carex-product-icons" },
+    "check": { "fontCharacter": "\\F10C", "fontId": "carex-product-icons" },
+    "chevron-right": { "fontCharacter": "\\F10B", "fontId": "carex-product-icons" },
+    "close": { "fontCharacter": "\\F10A", "fontId": "carex-product-icons" },
+    "code": { "fontCharacter": "\\F109", "fontId": "carex-product-icons" },
+    "extensions": { "fontCharacter": "\\F108", "fontId": "carex-product-icons" },
+    "file": { "fontCharacter": "\\F107", "fontId": "carex-product-icons" },
+    "folder": { "fontCharacter": "\\F106", "fontId": "carex-product-icons" },
+    "gear": { "fontCharacter": "\\F105", "fontId": "carex-product-icons" },
+    "git-branch": { "fontCharacter": "\\F104", "fontId": "carex-product-icons" },
+    "play": { "fontCharacter": "\\F103", "fontId": "carex-product-icons" },
+    "search": { "fontCharacter": "\\F102", "fontId": "carex-product-icons" },
+    "terminal": { "fontCharacter": "\\F101", "fontId": "carex-product-icons" }
+  }
+}

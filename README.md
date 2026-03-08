@@ -1,5 +1,8 @@
 # 🎨 Carex Theme
 
+> **☕ Support Carex**
+> If you enjoy using this theme, consider buying me a coffee: [https://buymeacoffee.com/valentinoo](https://buymeacoffee.com/valentinoo)
+
 <div align="center">
 
 ![Carex Theme Banner](https://img.shields.io/badge/Carex-Modern%20Theme-89b4fa?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -9,9 +12,9 @@
 ![Rating](https://img.shields.io/visual-studio-marketplace/r/OMERBABACO.carex-theme?style=for-the-badge&color=f9e2af&label=Rating)
 ![Installs](https://img.shields.io/visual-studio-marketplace/i/OMERBABACO.carex-theme?style=for-the-badge&color=cba6f7&label=Installs)
 
-**A beautiful, modern VS Code theme inspired by Catppuccin. Available in Dark, Light, and High Contrast variants.**
+**A premium VS Code theme suite inspired by Catppuccin, now with 11 color variants, semantic highlighting upgrades, a file icon theme, and a custom product icon theme.**
 
-[🚀 Install Now](https://marketplace.visualstudio.com/items?itemName=OMERBABACO.carex-theme) • [🐛 Report Bug](https://github.com/babajoeltdsti/carex-theme/issues) • [💡 Request Feature](https://github.com/babajoeltdsti/carex-theme/issues) • [⭐ Star on GitHub](https://github.com/babajoeltdsti/carex-theme)
+[🚀 Install Now](https://marketplace.visualstudio.com/items?itemName=OMERBABACO.carex-theme) • [🐛 Report Bug](https://github.com/babajoeltdsti/carex-theme/issues) • [💡 Request Feature](https://github.com/babajoeltdsti/carex-theme/issues) • [⭐ Star on GitHub](https://github.com/babajoeltdsti/carex-theme) • [🗺️ Feature Report](./CAREX_FEATURE_REPORT.md) • [⚙️ Variant Profiles](./VARIANT_PROFILES.md)
 
 </div>
 
@@ -23,26 +26,26 @@
 <tr>
 <td width="50%">
 
-### 🎨 **Three Beautiful Variants**
-Choose between Dark, Light, and High Contrast themes to match your environment and accessibility needs.
+### 🎨 **Eleven Distinct Variants**
+Choose from production-friendly dark and light themes, showcase variants, OLED mode, and accessibility-focused palettes.
 
 ### 🌈 **Modern Color Palette**
-Inspired by Catppuccin, featuring soft, eye-friendly colors that reduce strain during long coding sessions.
+Inspired by Catppuccin, then extended into OLED, Dusk, Dawn, Neon, and color-vision-friendly directions.
 
-### 💎 **Comprehensive Styling**
-400+ UI elements and 15+ syntax highlighting rules ensure every part of your editor looks perfect.
+### 💎 **Broader Workbench Coverage**
+Git decorations, notebooks, testing UI, sticky scroll, inline chat, merge editor, and semantic token coverage are tuned for the full workbench.
 
 </td>
 <td width="50%">
 
 ### 👁️ **Eye-Friendly Design**
-Carefully selected colors and contrast ratios designed specifically to prevent eye fatigue.
+Carefully selected palettes target night coding, daylight use, low distraction, and specialized accessibility needs.
 
 ### 🎯 **Multi-Language Support**
-Optimized syntax highlighting for JavaScript, TypeScript, Python, React, Vue, and 20+ more languages.
+Optimized syntax highlighting for JavaScript, TypeScript, Python, Markdown, CSS/SCSS, React, Vue, Svelte, Astro, and more.
 
-### ♿ **Accessibility First**
-High Contrast variant meets WCAG accessibility standards for users with visual impairments.
+### 🧩 **Icon Ecosystem**
+Carex now ships with a custom file icon theme and a matching product icon theme for a more cohesive editor identity.
 
 </td>
 </tr>
@@ -52,54 +55,38 @@ High Contrast variant meets WCAG accessibility standards for users with visual i
 
 ## 🎨 Theme Variants
 
-### 🌙 Carex Dark
+| Variant | Type | Best For | Direction |
+| --- | --- | --- | --- |
+| Carex Dark | Dark | Daily coding | Soft Catppuccin-adjacent default |
+| Carex Light | Light | Daytime work | Clean light theme with vivid accents |
+| Carex High Contrast Dark | Dark | Maximum contrast | Pure black, WCAG-minded accessibility |
+| Carex High Contrast Light | Light | Bright environments | White background with high-separation tokens |
+| Carex OLED | Dark | OLED panels | Near-true black with preserved Carex accents |
+| Carex Dusk | Dark | Long reading sessions | Warmer plum/slate palette |
+| Carex Dawn | Light | Softer light theme users | Paper-like surfaces and warmer tones |
+| Carex Neon | Dark | Showcases and screenshots | Bold cyan, magenta, lime accents |
+| Carex Deuteranopia Friendly | Dark | Color-vision accessibility | Blue-orange-purple separation |
+| Carex Protanopia Friendly | Dark | Color-vision accessibility | Cyan-gold-lilac separation |
+| Carex Low Distraction | Dark | Deep focus work | Muted low-noise palette |
 
-Perfect for night coding and low-light environments.
+## 🧩 Icon Themes
 
-**Color Palette:**
-- Background: `#1e1e2e` - Soft dark purple-gray
-- Foreground: `#cdd6f4` - Light lavender-white
-- Accent: `#89b4fa` - Soft blue
-- Keywords: `#f38ba8` - Soft pink
-- Strings: `#a6e3a1` - Soft green
-- Numbers: `#f9e2af` - Soft yellow
-- Functions: `#89b4fa` - Soft blue
-- Classes: `#cba6f7` - Soft purple
+### Carex File Icons
 
-### ☀️ Carex Light
+- Broad coverage for TypeScript, JavaScript, React, Markdown, JSON, Python, Rust, Go, Java, PHP, C#, config files, lockfiles, and common folders.
+- Purpose-built Carex SVG icons for source, assets, docs, config, and test directories.
 
-Ideal for daytime coding and bright environments.
+### Carex Product Icons
 
-**Color Palette:**
-- Background: `#eff1f5` - Light gray-white
-- Foreground: `#4c4f69` - Dark gray
-- Accent: `#1e66f5` - Vibrant blue
-- Keywords: `#d20428` - Vibrant red
-- Strings: `#40a02b` - Vibrant green
-- Numbers: `#df8e1d` - Vibrant orange
-- Functions: `#1e66f5` - Vibrant blue
-- Classes: `#8839ef` - Vibrant purple
+- Thin-line, modern product icons for common VS Code workbench glyphs.
+- Complements the color themes without overpowering them.
 
-### ⚡ Carex High Contrast
+## 📚 Companion Docs
 
-Maximum contrast for accessibility and outdoor use.
-
-**Color Palette:**
-- Background: `#000000` - Pure black
-- Foreground: `#ffffff` - Pure white
-- Accent: `#00ffff` - Pure cyan
-- Keywords: `#ff0000` - Pure red
-- Strings: `#00ff00` - Pure green
-- Numbers: `#ffff00` - Pure yellow
-- Functions: `#00ffff` - Pure cyan
-- Classes: `#ff00ff` - Pure magenta
-
----
-
-## 📦 Installation
-
-> **☕ Support the project:**
-> If you enjoy using this theme, consider buying me a coffee: [https://buymeacoffee.com/valentinoo](https://buymeacoffee.com/valentinoo)
+- [Feature Report](./CAREX_FEATURE_REPORT.md)
+- [Variant Profiles](./VARIANT_PROFILES.md)
+- [Terminal Palettes](./TERMINAL_PALETTES.md)
+- [Release Checklist](./RELEASE_CHECKLIST.md)
 
 ## 📦 Installation
 
@@ -109,7 +96,9 @@ Maximum contrast for accessibility and outdoor use.
 2. Search for **"Carex"**
 3. Click **Install**
 4. Press `Ctrl+K Ctrl+T` / `Cmd+K Cmd+T` to open theme selector
-5. Choose **Carex Dark**, **Carex Light**, or **Carex High Contrast**
+5. Choose any Carex variant from the 11-theme suite
+6. Open **File Icon Theme** and select **Carex File Icons**
+7. Open **Product Icon Theme** and select **Carex Product Icons**
 
 ### Method 2: Command Line
 
@@ -122,6 +111,13 @@ code --install-extension OMERBABACO.carex-theme
 1. Press `Ctrl+P` / `Cmd+P`
 2. Paste: `ext install OMERBABACO.carex-theme`
 3. Press Enter
+
+## ⚙️ Recommended Activation Flow
+
+1. Pick your base color theme first.
+2. Enable **Carex File Icons** for Explorer consistency.
+3. Enable **Carex Product Icons** for a full Carex workbench look.
+4. Use [VARIANT_PROFILES.md](./VARIANT_PROFILES.md) to match the variant to your workflow.
 
 ---
 

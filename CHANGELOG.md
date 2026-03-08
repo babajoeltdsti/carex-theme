@@ -5,6 +5,24 @@ All notable changes to the "Carex" theme will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2026-03-08
+
+### 🚀 Added
+- Added 8 new color variants: Carex OLED, Carex Dusk, Carex Dawn, Carex Neon, Carex High Contrast Light, Carex Deuteranopia Friendly, Carex Protanopia Friendly, and Carex Low Distraction
+- Added Carex File Icons with broad coverage for common languages, config files, lockfiles, and project folders
+- Added Carex Product Icons with a custom icon font pipeline and matching workbench glyph overrides
+- Added companion docs: feature report, variant profiles, terminal palettes, and a release checklist
+
+### 🎨 Improved
+- Promoted the original High Contrast theme into **Carex High Contrast Dark**
+- Expanded semantic highlighting coverage for classes, enums, interfaces, decorators, readonly properties, function declarations, and more
+- Improved workbench coverage for sticky scroll, notebooks, testing UI, merge editor, inline chat, git decorations, and inline values
+- Improved Markdown, JSX/TSX, JSON, CSS/SCSS, Python decorator, regex, and escape-sequence token styling
+
+### 📦 Changed
+- Updated the extension to version 2.0.0
+- Updated packaging scripts so product icon font assets are regenerated before packaging and publishing
+
 ## [1.0.1] - 2026-02-26
 
 ### 🔧 Fixed
