@@ -98,6 +98,11 @@ Maximum contrast for accessibility and outdoor use.
 
 ## 📦 Installation
 
+> **☕ Support the project:**
+> If you enjoy using this theme, consider buying me a coffee: [https://buymeacoffee.com/valentinoo](https://buymeacoffee.com/valentinoo)
+
+## 📦 Installation
+
 ### Method 1: VS Code Marketplace (Recommended)
 
 1. Open **Extensions** sidebar in VS Code (`Ctrl+Shift+X` / `Cmd+Shift+X`)
